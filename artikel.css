@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    font-size: 1
+    8rem;
+    color: rgb(56, 223, 212);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+    color: #e0cbcb;
+    border-bottom: 3px solid #55cbe8;
+}
+
+aside {
+    float: left;
+    width: 22%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+#profile img {
+    width: 100%;
+}
+
+/* #profile {
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 20px;
+} */
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    color: #4CAF50;
+}
+
+section h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+section p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+section ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+}
+
+.back {
+    font-size: xx-large;
+    text-underline-offset: rgb(51, 90, 173);
+}
